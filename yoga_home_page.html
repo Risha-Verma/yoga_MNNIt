@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MNNIT Yoga Club Home Page</title>
+</head>
+<link rel="stylesheet" href="css/yoga_wesite_style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+<style>
+    /* css reset */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('./photo9.png');
+        background-repeat: no-repeat;
+        font-family: 'Lora', serif;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 25px;
+        top: 20px;
+        /* border: 2px solid brown; */
+        font-family: 'Lora', serif;
+
+    }
+
+    .left img {
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        border: 2px solid black;
+        margin: 4px 20px;
+
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 25px;
+
+    }
+
+    .middle {
+        /* border: 1.5px double  #25cc7c; */
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+        /*to make element in center (for x-axis it is auto)*/
+        padding: 10px 20px;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    .right {
+        /* border: 2px solid rgb(46, 154, 86); */
+        display: inline-block;
+        position: absolute;
+        right: 13px;
+        top: 25px;
+        font-family: 'Lora', serif;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        color: rgb(79, 137, 20);
+    }
+
+    .navbar li a {
+        color: rgb(11, 11, 11);
+        text-decoration: none;
+        padding: 15px 20px;
+        font-size: 35px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: rgb(64, 51, 11);
+        text-decoration: underline;
+    }
+
+    .navbar li a:hover{
+        background-color: #ada9a9;
+    }
+
+    .btn {
+        margin: 10px 10px;
+        font-size: 30px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        background: none;
+        font-family: 'PT Sans', sans-serif;
+        background: #a79393;
+    }
+
+    .btn:hover {
+        background: #dabebe;
+
+    }
+
+    .container {
+        border: #161717 6px double;
+        margin-top: 145px;
+        font-size: 40px;
+        margin-left: 150px;
+        width: 30%;
+        padding: 1%;
+        border-radius: 4%;
+        font-size: 50px;
+        font-family: 'Lora', serif;
+    }
+
+    .container h5 {
+        text-align: center;
+        margin: 20px;
+        padding: 0%;
+        font-size: 40px;
+    }
+
+    .form-group button {
+        display: block;
+        margin: 17px auto;
+        padding: 5px 0px;
+        width: 73%;
+        background: #7e7777;
+
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        font-size: 20px;
+        width: 70%;
+        padding: 4px;
+        border: 2px solid black;
+        margin: 4px auto;
+    }
+
+    .form-group button input{
+        background: none;
+        border: none;
+    }
+
+    #details{
+        text-align: center;
+        display: block;
+        margin: 4px auto;
+        border:2px solid black ;
+        width: 70%;
+        padding: 4px;
+        font-size: 20px;
+        font-family: 'PT Sans', sans-serif;
+    }
+
+    .btn a{
+        text-decoration: none;
+        
+    }
+</style>
+
+<body>
+
+    <header class="header">
+
+        <!-- left box for logo -->
+        <div class="left">
+            <!-- <img src="./yogaRealLogo.png" alt="logo of MNNIT yoga club"> -->
+            <img src="./mnnitLogo.jpeg" alt="logo of MNNIT yoga club">
+            <div>MNNIT Yoga Club</div>
+        </div>
+
+        <!-- mid box for navigation -->
+        <div class="middle">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="./yoga_about_page.html" target="_blank"> About Us</a></li>
+                <li><a href="./yoga_photo.html" target="_blank"> Photos</a></li>
+                <li><a href="./yoga_member.html" target="_blank" > Member Details</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for button -->
+        <div class="right">
+            <div>
+                <button class="btn">Contact Us</button>
+            </div>
+            <div>
+                <button class="btn">Email Us</button>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <h5>Join MNNIT YOGA CLUB now</h5>
+        <form action="noactive.php"> <!--assuming ki noactive.php backend koi developer desing kiya h  -->
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter your Registration number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Course Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your branch">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your passing year">
+            </div>
+            <div class="form-group">
+                <input type="email" name="" placeholder="Enter your email id">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter your Contact No.">
+            </div>
+            <div class="form-group">
+                <textarea name="mytext" id="details" placeholder="Why you want to join YOGA club ? (Expecting creative answer)"></textarea>
+            </div>
+
+            <div class="form-group">
+                <button class="btn"><input type="reset" value="RESET NOW"></button>
+                <button class="btn"><input type="submit" value="SUBMIT NOW"></button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+
+body{
+    background-color:  #d2f2e0;
+    font-size: 30px;
+}
+
+#logo{
+    margin: 30px auto;
+    display: flex;
+    height:150px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+#mnnitlogo{
+    display: inline-block;
+    position: absolute;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+#aasan{
+    margin:auto;
+    display: flex;
+    height:400px;
+    width:800px;
+    border: 2px black double;
+}
+
+.heading{
+font-family: 'Tilt Prism', cursive;
+text-align: center;
+}
+
+.heading2{
+font-family: 'Tilt Prism', cursive;
+text-align: right;
+}
+
+.photo{
+height:400px;
+width:1000px;
+margin: auto;
+display: flex;
+border: 2px black double;
+}
+
+.intro{
+font-family: 'Lobster', cursive;
+margin: 20px;
+}
+
+.picinfo{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline 1px;
+}
+
+.topic{
+    color: rgb(56, 19, 27);
+    background-color: rgb(149, 191, 177);
+    cursor: pointer;
+}
+
+
+#firstpic{
+    height: 400px;
+    width: 1000px;
+    border: 2px black double;
+}
+
+#container{
+     position: sticky;
+    right: 20px;
+}
+
+.links{
+    color: rgb(4, 33, 4);
+    text-decoration: none;
+    margin: 20px;
+    display: block;
+    font-size: 40px;
+    width: 50%;
+}
+
+.links:hover{
+    color: rgb(45, 103, 45);
+    background: rgb(137, 190, 137);
+}
